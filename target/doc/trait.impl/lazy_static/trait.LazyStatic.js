@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"loadbalancer":[["impl <a class=\"trait\" href=\"https://docs.rs/lazy_static/1.4.0/lazy_static/trait.LazyStatic.html\" title=\"trait lazy_static::LazyStatic\">LazyStatic</a> for <a class=\"struct\" href=\"loadbalancer/backends/struct.LAST_BACKEND.html\" title=\"struct loadbalancer::backends::LAST_BACKEND\">LAST_BACKEND</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

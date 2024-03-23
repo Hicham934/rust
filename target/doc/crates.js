@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["loadbalancer","serveur1","serveur2"];

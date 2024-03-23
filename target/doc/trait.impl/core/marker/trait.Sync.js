@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"loadbalancer":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.76.0/core/marker/trait.Sync.html\" title=\"trait core::marker::Sync\">Sync</a> for <a class=\"struct\" href=\"loadbalancer/backends/struct.LAST_BACKEND.html\" title=\"struct loadbalancer::backends::LAST_BACKEND\">LAST_BACKEND</a>",1,["loadbalancer::backends::LAST_BACKEND"]]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

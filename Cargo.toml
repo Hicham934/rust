@@ -1,0 +1,25 @@
+[package]
+name = "loadbalancer" # Nom du projet
+version = "0.1.0" # Version du projet
+edition = "2021" # Édition de Rust utilisée
+
+[dependencies]
+# Dépendances nécessaires pour le projet
+hyper = { version = "0.14", features = ["full"] } # Hyper pour le serveur HTTP et le client
+tokio = { version = "1", features = ["full"] } # Tokio pour l'asynchrone
+lazy_static = "1.4.0" # Pour des données globales immuables
+governor = "0.4" # Pas utilisé explicitement dans les exemples fournis, pour la gestion de taux
+futures = "0.3" # Utilitaire pour les futures
+
+# Déclaration des binaires du projet
+[[bin]]
+name = "loadbalancer"
+path = "src/main.rs"
+
+[[bin]]
+name = "serveur1"
+path = "src/serveur1.rs"
+
+[[bin]]
+name = "serveur2"
+path = "src/serveur2.rs"
