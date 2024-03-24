@@ -1,4 +1,4 @@
-# Load Balancer en Rust ![Uploading FerrisRustGIF.gif…]()
+# Load Balancer en Rust 🦀
 
 Ce projet est un exemple simple de load balancer écrit en Rust, utilisant hyper pour la création du serveur HTTP et tokio pour l'asynchronisme. Il route de manière cyclique les requêtes entrantes vers deux serveurs backends, en vérifiant périodiquement leur santé.
 
