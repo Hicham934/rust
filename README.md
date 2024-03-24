@@ -10,6 +10,7 @@ Routage des requêtes HTTP vers les backends sélectionnés.
 # Prérequis
 Rust (Edition 2021)
 Cargo (intégré avec Rust)
+Une machine avec interface graphique (pour pouvoir lancer plusieurs terminaux) 
 
 # Installez le compilateur C (gcc) et les outils de compilation nécessaires en utilisant apt :
 ```
