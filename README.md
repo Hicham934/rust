@@ -10,6 +10,11 @@ Routage des requêtes HTTP vers les backends sélectionnés.
 Rust (Edition 2021)
 Cargo (intégré avec Rust)
 
+# Installez le compilateur C (gcc) et les outils de compilation nécessaires en utilisant apt :
+sudo apt update
+sudo apt install build-essential
+
+
 # Installation
 Clonez le dépôt du projet :
 git clone git@github.com:Hicham934/rust.git
