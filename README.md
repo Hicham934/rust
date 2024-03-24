@@ -11,8 +11,10 @@ Rust (Edition 2021)
 Cargo (intégré avec Rust)
 
 # Installez le compilateur C (gcc) et les outils de compilation nécessaires en utilisant apt :
+```
 sudo apt update
 sudo apt install build-essential
+```
 
 
 # Installation
